@@ -2,6 +2,7 @@ from django.conf.urls import url
 from django.views.generic import TemplateView
 from django.contrib.sitemaps import GenericSitemap
 from django.contrib.sitemaps.views import sitemap
+from django.urls import path
 from blog.views import *
 from blog.feed import LatestPosts
 
@@ -22,7 +23,7 @@ urlpatterns = [
     # Handler for Maintenance mode.
     # url(r'^$', TemplateView.as_view(template_name='maintenance.html', content_type='text/html')),
 
-    url(r'^resource/$', Resource ,name='resource'),
+    url(r'^resource/$', ResourceView.as_view() ,name='resource_page'),
     url(r'^$', HomepageView.as_view(), name='homepage'),
     url(r'^blog/(?P<slug>[\w\-]+)/$', DetailPostView.as_view(), name='detail_post_page'),
     url(r'^search/$', SearchPostsView.as_view(), name='search_posts_page'),

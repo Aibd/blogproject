@@ -5,13 +5,13 @@
 {% block content %}
   <div class="input-group sort__choices">
     <span class="input-group-addon" id="basic-addon3">
-      <span class="glyphicon glyphicon-cog"></span>&nbsp; Choice Filter Posts
+      <span class="glyphicon glyphicon-cog"></span>&nbsp; 选择过滤帖子
     </span>
     <select id="filter__trending__posts" onchange="location='?filter='+this.options[this.selectedIndex].value;" class="form-control" data-live-search="true" name="filter">
-      <option value="global">GLobal</option>
-      <option value="week">This Week</option>
-      <option value="month">This Month</option>
-      <option value="year">This Year</option>
+      <option value="global">全部</option>
+      <option value="week">本周</option>
+      <option value="month">本月</option>
+      <option value="year">本年</option>
   </select>
   <script>
     //force attribute selected for value from filter.
@@ -24,12 +24,12 @@
     <div class="post">
       <h2 class="title__bold"><a href="{% url 'detail_post_page' slug=object.slug %}">{{ object.title }}</a></h2>
       <p class="meta">
-        Created: {{ object.created }} -
-        By: <a href="{% url 'author_posts_page' username=object.author.user.username %}">{{ object.author }}</a> -
-        Tagged under:
+        日期: {{ object.created }} -
+        作者: <a href="{% url 'author_posts_page' username=object.author.user.username %}">{{ object.author }}</a> -
+        标签:
         {% for tag in object.tags.all %}
           <a href="{% url 'tag_posts_page' slug=tag.slug %}">{{ tag }}</a>{% if not forloop.last %}, {% endif %}
-        {% empty %}Uncategories
+        {% empty %}未分类
         {% endfor %}
       </p>
       {% if object.cover %}
@@ -46,6 +46,6 @@
       <div style="clear:both;border-bottom: 1px solid #F2F2F2;margin: 10px 0"></div>
     </div>
   {% empty %}
-    <p class="alert alert-warning text-center cst__radus"><span class="glyphicon glyphicon-info-sign"></span> Posts does not exist!</p>
+    <p class="alert alert-warning text-center cst__radus"><span class="glyphicon glyphicon-info-sign"></span> 文章不存在!</p>
   {% endfor %}
 {% endblock %}

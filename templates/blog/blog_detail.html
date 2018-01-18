@@ -55,11 +55,11 @@
     {{ object.description|safe }}
 
     <div class="share panel-body" id="non-printable">
-      <span>Share on: </span>
-      <a class="btn btn-sm btn-primary cst__radius" href="https://www.facebook.com/sharer/sharer.php?u=https://python.web.id{% url "detail_post_page" slug=object.slug %}" target="_blank">Facebook</a>
-      <a class="btn btn-sm btn-danger cst__radius" href="https://plus.google.com/share?url=https://python.web.id{% url "detail_post_page" slug=object.slug %}" target="_blank">Google+</a>
-      <a class="btn btn-sm btn-info cst__radius" href="https://twitter.com/share" target="_blank">Twitter</a>
-      <a class="btn btn-sm btn-success cst__radius" href="javascript:window.print()">Print Page</a>
+      <span>分享: </span>
+      <a class="btn btn-sm btn-primary cst__radius" href="#{% url "detail_post_page" slug=object.slug %}" target="_blank">新浪微博</a>
+      <a class="btn btn-sm btn-danger cst__radius" href="#{% url "detail_post_page" slug=object.slug %}" target="_blank">腾讯微博+</a>
+      <a class="btn btn-sm btn-info cst__radius" href="#" target="_blank">微  信</a>
+      <a class="btn btn-sm btn-success cst__radius" href="javascript:window.print()">打  印</a>
     </div>
 
     <style type="text/css" media="print">
@@ -71,7 +71,7 @@
     </style>
 
     <div class="panel panel-default" id="non-printable">
-    <div class="panel-heading">Author</div>
+    <div class="panel-heading">作者</div>
       <div class="panel-body">
         <div class="media">
           <div class="media-left media-middle" style="float: left;margin-right: 10px;">
@@ -90,13 +90,13 @@
 
     <div class="panel panel-default related" id="non-printable">
       <div class="panel-heading">
-        <h3 class="panel-title">Related Posts</h3>
+        <h3 class="panel-title">相关文章</h3>
       </div>
         <ul class="list-group">
           {% for post in related_posts %}
             <li class="list-group-item"><a href="{% url "detail_post_page" slug=post.slug %}">{{ post.title }}</a> - <i>{{ post.created }}</i></li>
             {% empty %}
-              <p style="margin: 1em;">No related posts!</p>
+              <p style="margin: 1em;">没有相关帖子!</p>
           {% endfor %}
         </ul>
     </div>
@@ -104,12 +104,12 @@
     <ul class="pager" id="non-printable">
       <li class="previous">
       {% if object.get_previous_by_created %}
-        <a href="{% url 'detail_post_page' slug=object.get_previous_by_created.slug %}">&larr; Previous</a>
+        <a href="{% url 'detail_post_page' slug=object.get_previous_by_created.slug %}">&larr; 前一页</a>
       {% endif %}
       </li>
       <li class="next">
       {% if object.get_next_by_created %}
-        <a href="{% url 'detail_post_page' slug=object.get_next_by_created.slug %}">Next &rarr;</a>
+        <a href="{% url 'detail_post_page' slug=object.get_next_by_created.slug %}">下一页 &rarr;</a>
       {% endif %}
       </li>
     </ul>

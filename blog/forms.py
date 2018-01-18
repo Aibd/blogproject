@@ -7,16 +7,16 @@ class ContactForm(forms.Form):
         'class': 'form-control cst__radius',
         'required': 'required'
     }
-    email = forms.EmailField(
+    邮箱 = forms.EmailField(
         required=True,
         widget=forms.TextInput(attrs=cst)
     )
-    subject = forms.CharField(
+    摘要 = forms.CharField(
         required=True,
         widget=forms.TextInput(attrs=cst)
     )
-    message = forms.CharField(
+    信息 = forms.CharField(
         required=True,
         widget=forms.Textarea(attrs=cst)
     )
-    captcha = NoReCaptchaField()
+    # captcha = NoReCaptchaField()

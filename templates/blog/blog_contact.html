@@ -4,21 +4,20 @@
 
 {% block content %}
 <div class="post">
-  <h2>Contact</h2>
+  <h2>联系</h2>
   {% if success %}
     <meta http-equiv="refresh" content="7;url={% url 'homepage' %}" />
     <p class="alert alert-success text-center cst__radius">{{ success }}</p>
   {% else %}
-    <p><center><span style="color: #f00">*) Please type again your email on body message.</span><br />
-    { If this form can not work, contact me at <a href="https://www.facebook.com/messages/agaust" target="_blank">Facebook Chat</a> }</center></p>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <p><center><span style="color: #f00">请输入您的邮箱.</span></center><br />
+
     <form action="." method="POST">
     {% csrf_token %}
     {{ form.as_p }}
     <div class="form-actions">
-      <button class="btn btn-primary btn-block cst__radius" type="submit">Send</button>
+      <button class="btn btn-primary btn-block cst__radius" type="submit">发送</button>
     </div>
-  </form>
+    </form>
   {% endif %}
 </div>
 

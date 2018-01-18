@@ -44,8 +44,11 @@ def handler500(request):
     response.status_code = 500
     return response
 
-def Resource(request):
-    return HttpResponse("资源筹备中...")
+class ResourceView(generic.ListView):
+    queryset = Post.objects.published()
+    template_name = 'blog/blog_resource.html'
+
+
 
 class HomepageView(generic.ListView):
     queryset = Post.objects.published()
@@ -263,17 +266,17 @@ class ContactView(generic.TemplateView):
                 send_mail(
                     subject + " from {}".format(from_email),
                     message,
-                    from_email,
+                    [settings.EMAIL_HOST_USER],
                     [settings.EMAIL_HOST_USER]
                 )
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
 
             ctx = {
-                'success': """Thankyou, We appreciate that you've
-                taken the time to write us.
-                We'll get back to you very soon.
-                Please come back and see us often."""
+                'success': """谢谢，我很感激你。
+                        花时间给我们写信。
+                        我很快就会给你答复。
+                        请经常回来看我们"""
             }
             return render(request, self.template_name, ctx)
         return super(generic.TemplateView, self).render_to_response(context)
