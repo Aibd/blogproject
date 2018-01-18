@@ -1,0 +1,46 @@
+{% load disqus_tags %}
+{% load globaltags %}
+<div class="sidebar-module sidebar-module-inset text-center">
+  <p>
+    <b>木森博客</b><br/><br/>不经一番寒彻骨，怎得梅花扑鼻香。<hr />
+    <strong>github:</strong>
+    <iframe src="https://ghbtns.com/github-btn.html?user=agusmakmun&repo=Django-Blog-Python-Learning&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+  </p>
+</div>
+
+<div class="sidebar-module sidebar-module-inset">
+	<button onclick="location.href='#'" type="button" class="btn btn-info btn-block cst__radius">
+    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Wechat微信
+  </button>
+	<button onclick="location.href='#'" type="button" class="btn btn-success btn-block cst__radius" />
+    <span class="glyphicon glyphicon-save" aria-hidden="true"></span> 下载 APK
+  </buton>
+</div>
+
+
+<div class="sidebar-module sidebar-module-inset">
+  <h4>最新评论</h4>
+  {% disqus_recent_comments shortname 5 50 0 24 %}
+</div>
+
+<div class="sidebar-module sidebar-module-inset">
+  <h4>最近文章</h4>
+  {% recentposts as recentposts_list %}
+  {% for post in recentposts_list %}
+    <li><a href="{% url 'detail_post_page' slug=post.slug %}">{{ post.title }}</a></li>
+  {% empty %}
+    <p>No posts yet!</p>
+  {% endfor %}
+</div>
+
+<div class="sidebar-module sidebar-module-inset">
+  <h4>标签</h4>
+  {% populartags as populartags_list %}
+  {% for tag in populartags_list %}
+    <a class="btn btn-sm btn-block btn-default cst__radius cst__tags" href="{% url 'tag_posts_page' slug=tag.tag.slug %}">
+      {{ tag.tag.title }} <span class="badge pull-right">{{ tag.total }}</span>
+    </a>
+  {% empty %}
+    <p>No tags yet!</p>
+  {% endfor %}
+</div>
