@@ -2,7 +2,7 @@
 -------
 
 ### 演示:
-- [http://www.billionhouse.com/blog](http://www.billionhouse.com)
+- [http://www.billionhouse.com/blog](http://www.billionhouse.cn)
 
 ### 技术
 
@@ -45,7 +45,7 @@ $ python -m even yourenv
 $ source bin/activate
 ```
 
-**2. 克隆项目t**
+**2. 克隆项目**
 
 ```
 $ git clone https://github.com/Aibd/blogproject.git
