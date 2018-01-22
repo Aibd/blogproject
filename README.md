@@ -2,7 +2,7 @@
 -------
 
 ### 演示:
-- [http://www.billionhouse.com/blog](http://www.billionhouse.com/blog)
+- [http://www.billionhouse.com/blog](http://www.billionhouse.com)
 
 ### 技术
 
@@ -41,7 +41,7 @@
 **1. 创建虚拟环境.**
 
 ```
-$ virtualenv --python=/usr/bin/python3 yourenv
+$ python -m even yourenv
 $ source bin/activate
 ```
 
