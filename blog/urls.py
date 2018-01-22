@@ -2,7 +2,6 @@ from django.conf.urls import url
 from django.views.generic import TemplateView
 from django.contrib.sitemaps import GenericSitemap
 from django.contrib.sitemaps.views import sitemap
-from django.urls import path
 from blog.views import *
 from blog.feed import LatestPosts
 

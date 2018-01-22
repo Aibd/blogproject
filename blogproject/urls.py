@@ -17,7 +17,7 @@ from django.conf import settings
 from django.contrib import admin
 from django.conf.urls import include, url
 from django.conf.urls.static import static
-
+from django.views.static import serve
 from django.conf.urls import (
     handler400, handler403, handler404, handler500
 )
@@ -30,4 +30,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^redactor/', include('redactor.urls')),
     url(r'^', include('blog.urls')),
+    url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT }, name='static'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
