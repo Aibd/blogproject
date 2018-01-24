@@ -1,4 +1,4 @@
-## 博客
+## 博客 CentOS  + Django + MySQL + uwsig + Nginx
 -------
 
 ### 演示:
@@ -35,7 +35,7 @@
 - unicodecsv==0.14.1
 - xlrd==1.1.0
 - xlwt==1.3.0
-
+- uWSGI==2.0.15
 ### 安装
 
 **1. 创建虚拟环境.**
@@ -70,7 +70,75 @@ $ ./manage.py migrate
 $ ./manage.py runserver
 ```
 -------
+**6. 生产环境配置**
+```
+ # blog_uwsgi.ini file
+    [uwsgi]
 
+    socket = 127.0.0.1:8000
+    # Django-related settings
+    # the django project directory (full path)
+    chdir           = /var/site/blogproject
+    # Django's wsgi file
+    module          = blogproject.wsgi
+
+    # process-related settings
+    # master
+    master          = true
+    # maximum number of worker processes
+    processes       = 2
+
+    threads = 2
+    max-requests = 6000
+
+    # ... with appropriate permissions - may be needed
+    chmod-socket    = 664
+    # clear environment on exit
+    vacuum          = true
+    # daemon process
+    daemonize = /var/site/blogproject/uwsgi.log
+```
+uwsgi --ini blog_uwsgi.ini
+```
+server {
+        listen       80 default_server;
+        listen       [::]:80 default_server;
+        server_name  www.billionhouse.cn;
+	server_name  106.14.171.154;
+        #root         /usr/share/nginx/html;
+
+        # Load configuration files for the default server block.
+        include /etc/nginx/default.d/*.conf;
+
+        location / {
+		 #proxy_pass http://127.0.0.1:8000;
+		 uwsgi_pass 127.0.0.1:8000;
+                 include	/etc/nginx/uwsgi_params;
+     		 proxy_set_header Host $host;
+     		 proxy_set_header X-Real-IP $remote_addr;
+     		 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+     		 proxy_set_header X-Forwarded-Proto $scheme;
+        }
+	location /static {
+		alias /var/site/blogproject/staticfiles;
+	}
+
+	location /media {
+		alias /var/site/blogproject/media;
+	}
+
+       #error_page 404 /404.html;
+            location = /40x.html {
+        }
+
+       #error_page 500 502 503 504 /50x.html;
+            location = /50x.html {
+        }
+    }
+
+```
+sudo nginx -t
+sudo systemctl restart nginx
 ### 截图:
 
 #### 主页
