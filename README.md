@@ -2,7 +2,8 @@
 -------
 
 ### 演示:
-- [http://www.billionhouse.com/blog](http://www.billionhouse.cn)
+- [http://106.14.171.154/](http://106.14.171.154/)
+- [http://www.billionhouse.com](http://www.billionhouse.cn)
 
 ### 技术
 
