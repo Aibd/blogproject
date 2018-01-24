@@ -3,9 +3,8 @@
 
 ### 演示:
 - [http://106.14.171.154/](http://106.14.171.154/)
-- [http://www.billionhouse.com](http://www.billionhouse.cn)
+- [http://www.billionhouse.com](http://www.billionhouse.cn) 域名更换 还在技术备案中
 
-### 技术
 
 - Django 2.0.1
 - Python 3.6
@@ -138,8 +137,8 @@ server {
     }
 
 ```
-sudo nginx -t
-sudo systemctl restart nginx
+   sudo nginx -t
+   sudo systemctl restart nginx
 ### 截图:
 
 #### 主页
