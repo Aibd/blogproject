@@ -29,6 +29,8 @@ handler500 = 'blog.views.handler500'
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^redactor/', include('redactor.urls')),
-    url(r'^', include('blog.urls')),
+    # url(r'^', include('blog.urls')),
+    url(r'blog/', include('blog.urls')),
+    url(r'^', include('bih.urls')),
     url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT }, name='static'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

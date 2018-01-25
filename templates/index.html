@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Home</title>
+    <!---css--->
+    <link href="/static/bih/css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href="/static/bih/css/style.css" rel='stylesheet' type='text/css'/>
+    <!---css--->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="Real Space Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!---js--->
+    <script src="/static/bih/js/jquery-1.11.1.min.js"></script>
+    <script src="/static/bih/js/bootstrap.js"></script>
+    <!---js--->
+    <!---fonts-->
+    <!---fonts-->
+    <script src="/static/bih/js/responsiveslides.min.js"></script>
+    <script>
+        $(function () {
+            $("#slider").responsiveSlides({
+                auto: true,
+                nav: false,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+    <link href="/static/bih/css/owl.carousel.css" rel="stylesheet">
+    <script src="/static/bih/js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                items: 1,
+                lazyLoad: true,
+                autoPlay: true,
+                navigation: false,
+                navigationText: false,
+                pagination: true,
+            });
+        });
+    </script>
+
+</head>
+<body>
+<div class="header-section">
+    <div class="container">
+        <nav class="navbar navbar-default">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand">
+                    <h1><a href="index.html"><span>兆房</span></a></h1>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">分类</a></li>
+                    <li><a href="#">推荐</a></li>
+                    <li><a href="/blog/">博客</a></li>
+                    <li><a href="#">统计</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+
+                <div class="clearfix"></div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="slider">
+    <div class="callbacks_container">
+        <ul class="rslides" id="slider">
+            <div class="slid banner1">
+            </div>
+            <div class="slid banner2">
+            </div>
+            <div class="slid banner3">
+                <!-- <div class="caption">
+                    <h3>标题</h3>
+                    <p>文本描述内容部分.</p>
+                    <a href="#" class="button">查看更多</a>
+                </div> -->
+            </div>
+        </ul>
+    </div>
+</div>
+
+<div class="content">
+    <!-- <div class="place-section">
+        <div class="container">
+            <h2>查询</h2>
+            <div class="place-grids">
+                <div class="col-md-3 place-grid">
+                    <h5>省份</h5>
+                    <select class="sel">
+                    <option value="">All Locations</option>
+                    <option value="">New Jersey</option>
+                    <option value="">New York</option>
+                    <option value="">Australia</option>
+                    <option value="">Canada</option>
+                    <option value="">India</option>
+                    </select>
+                </div>
+                <div class="col-md-3 place-grid">
+                <h5>城市</h5>
+                <select class="sel">
+                    <option value="">All Locations</option>
+                    <option value="">New Jersey</option>
+                    <option value="">New York</option>
+                    <option value="">Australia</option>
+                    <option value="">Canada</option>
+                    <option value="">India</option>
+                    </select>
+                </div>
+                <div class="col-md-3 place-grid">
+                <h5>状态</h5>
+                <select class="sel">
+                    <option value="">All status</option>
+                    <option value="">none</option>
+                    <option value="">open house</option>
+                    <option value="">rent</option>
+                    <option value="">sale</option>
+                    </select>
+                </div>
+                <div class="col-md-3 place-grid">
+                <h5>类型</h5>
+                <select class="sel">
+                    <option value="">All Type</option>
+                    <option value="">Commercial</option>
+                    <option value="">- Office</option>
+                    <option value="">- Buy</option>
+                    <option value="">Residential</option>
+                    <option value="">-Apartment</option>
+                    </select>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="place-grids">
+                <div class="col-md-2 place-grid1">
+                    <h5>几室</h5>
+                    <select class="sel">
+                    <option value="">any</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    </select>
+                </div>
+                <div class="col-md-2 place-grid1">
+                    <h5>几卫</h5>
+                    <select class="sel">
+                        <option value="">any</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                    </select>
+                </div>
+                <div class="col-md-2 place-grid1">
+                    <h5>最低价</h5>
+                    <select class="sel">
+                        <option value="">any</option>
+                        <option value="">$500</option>
+                        <option value="">$1000</option>
+                        <option value="">$2000</option>
+                        <option value="">$3000</option>
+                        <option value="">$4000</option>
+                        <option value="">$5000</option>
+                        <option value="">$75000</option>
+                        <option value="">$10000</option>
+                    </select>
+                </div>
+                <div class="col-md-2 place-grid1">
+                    <h5>最高价</h5>
+                    <select class="sel">
+                        <option value="">any</option>
+                        <option value="">$1000</option>
+                        <option value="">$2000</option>
+                        <option value="">$3000</option>
+                        <option value="">$4000</option>
+                        <option value="">$5000</option>
+                        <option value="">$75000</option>
+                        <option value="">$10000</option>
+                    </select>
+                </div>
+                <div class="col-md-4 search">
+                <form action="forrent.html">
+                    <input type="submit" value="查询">
+                </form>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div> -->
+    <div class="friend-agent">
+        <div class="container">
+            <div class="friend-grids">
+                <div class="col-md-4 friend-grid">
+                    <a href="#"><img src="/static/bih/images/p.png"></a>
+                    <h4>房屋出租</h4>
+                    <p>出租人将租赁物交付承租人使用、收益，承租人支付租金.</p>
+                </div>
+                <div class="col-md-4 friend-grid">
+                    <a href="#"><img src="/static/bih/images/p1.png"></a>
+                    <h4>新房/二手房</h4>
+                    <p>售卖人将合格的房产出售给买受人，并由买受人支付房价款.</p>
+                </div>
+                <div class="col-md-4 friend-grid">
+                    <a href="#"><img src="/static/bih/images/p2.png"></a>
+                    <h4>商铺/写字楼/厂房</h4>
+                    <p>承租人将所租赁使用的出租人商铺，包括商铺、写字楼、工厂之内的设施与物品，有偿移转给受让人，受让人继续租赁商铺进行经营.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copy-section">
+        <div class="container">
+            <p>Copyright &copy; 2018.BillionHouse <a href="#">兆房网</a><br>
+                沪ICP备143652号 </p>
+        </div>
+    </div>
+</body>
+</html>
