@@ -3,7 +3,7 @@
 
 ### 演示:
 - [http://106.14.171.154/blog](http://106.14.171.154/blog)
-- [http://www.billionhouse.com/blog](http://www.billionhouse.cn/blog) 域名更换 还在技术备案中
+- [http://www.billionhouse.com/blog](http://www.billionhouse.cn/blog) 域名更换 还在备案中
 
 
 - Django 2.0.1

@@ -18,9 +18,8 @@ from django.contrib import admin
 from django.conf.urls import include, url
 from django.conf.urls.static import static
 from django.views.static import serve
-from django.conf.urls import (
-    handler400, handler403, handler404, handler500
-)
+from django.conf.urls import  handler400, handler403, handler404, handler500
+
 handler400 = 'blog.views.handler400'
 handler403 = 'blog.views.handler403'
 handler404 = 'blog.views.handler404'
@@ -29,7 +28,6 @@ handler500 = 'blog.views.handler500'
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^redactor/', include('redactor.urls')),
-    # url(r'^', include('blog.urls')),
     url(r'blog/', include('blog.urls')),
     url(r'^', include('bih.urls')),
     url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT }, name='static'),

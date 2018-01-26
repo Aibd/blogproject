@@ -2,231 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3116dad6-f162-42ed-b01b-42dcd2e91ba4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/autocomplete.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/changelists.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/dashboard.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/fonts.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/login.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/responsive_rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/LICENSE-SELECT2.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/vendor/select2/select2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/widgets.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/calendar-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_off.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_on.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-addlink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-alert.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-changelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-clock.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-deletelink.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown-alt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectBox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/autocomplete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/cancel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/change_form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/jquery.init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/popup_response.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate_init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/timeparse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/LICENSE-SELECT2.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/az.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/i18n/zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/select2/select2.full.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/css/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/css/blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/css/highlight.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/icons/avatar.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/icons/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/icons/file-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/images/avatar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/js/docs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/assets/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/cms/css/pages.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/import_export/action_formats.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/_scss/_content.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/_scss/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/_scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/_scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/_scss/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/_scss/_ui.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/_scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/_scss/redactor.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/django_admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/jquery.redactor.init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/pt_br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/zh_cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/langs/zh_tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/redactor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/redactor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/redactor.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/redactor/redactor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/bootstrap/img/glyphicons-halflings-white-shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/bootstrap/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/css/djangocms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/css/filer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/css/suit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/img/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/img/bg_left_white.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/img/bg_pattern.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/img/cc_active_nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/img/drag-handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/img/glyphicons-halflings-white-nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/img/glyphicons-halflings-white-shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/js/djangocms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/js/jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/js/jquery-2.2.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/js/jquery.autosize-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/js/sortables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/js/suit-form-confirm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/js/suit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/djangocms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/djangocms/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/filer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/footer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/header.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/left-column.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/sticky-footer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/suit.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/actionlist.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/box.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/breadcrumb.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/calendar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/datepicker.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/form.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/left-nav.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/list.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/login.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/table.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/ui/tabs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/suit/less/variables.less" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blogproject/urls.py" afterPath="$PROJECT_DIR$/blogproject/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/includes/menu.html" afterPath="$PROJECT_DIR$/templates/includes/menu.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -254,18 +32,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -333,16 +100,16 @@
         <option value="D:/VirtualEnvironment/django-blog-python-learning-env/Lib/site-packages/redactor/widgets.py" />
         <option value="D:/VirtualEnvironment/django-blog-python-learning-env/Lib/site-packages/suit/templatetags/suit_menu.py" />
         <option value="D:/VirtualEnvironment/django-blog-python-learning-env/Lib/site-packages/suit/templatetags/suit_tags.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/bih/views.py" />
         <option value="$PROJECT_DIR$/bih/urls.py" />
-        <option value="$PROJECT_DIR$/blogproject/urls.py" />
         <option value="$PROJECT_DIR$/templates/includes/menu.html" />
         <option value="$PROJECT_DIR$/static/bih/css/style.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/blogproject/settings.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/blogproject/urls.py" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
       </list>
     </option>
   </component>
@@ -374,6 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -381,17 +150,30 @@
               <item name="Django-Blog-Python-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django-Blog-Python-Learning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Django-Blog-Python-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-Blog-Python-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-Blog-Python-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-Blog-Python-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="blogproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django-Blog-Python-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-Blog-Python-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="D:/VirtualEnvironment/myblogenv/Scripts/python.exe" />
+    <property name="last_opened_file_path" value="D:/repository" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -506,17 +288,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22970903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23353752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36573312" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2250423" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31979695" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37563452" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -619,13 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4630">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -808,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1938">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
@@ -819,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,9 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,19 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogproject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="e#645#677#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -873,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-113">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -915,6 +663,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogproject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#645#677#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="21" column="95" lean-forward="false" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
           <folding />
         </state>
       </provider>

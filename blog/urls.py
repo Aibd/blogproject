@@ -28,12 +28,10 @@ urlpatterns = [
     url(r'^search/$', SearchPostsView.as_view(), name='search_posts_page'),
     url(r'^author/(?P<username>[\w\-]+)/$', AuthorPostsView.as_view(), name='author_posts_page'),
     url(r'^tag/(?P<slug>[\w\-]+)/$', TagPostsView.as_view(), name='tag_posts_page'),
-
     url(r'^feed/$', LatestPosts(), name="feed"),
     url(r'^sitemap\.xml$', sitemap, {'sitemaps': {'blog': GenericSitemap(
         info_dict, priority=0.6)}}, name='django.contrib.sitemaps.views.sitemap'),
     url(r'^robots\.txt/$', TemplateView.as_view(template_name='robots.txt', content_type='text/plain')),
-
     url(r'^sitemap/$', SitemapView.as_view(), name='sitemap_page'),
     url(r'^contact/$', ContactView.as_view(), name='contact_page'),
     url(r'^trending/$', TrendingPostsView.as_view(), name='trending_posts_page'),
